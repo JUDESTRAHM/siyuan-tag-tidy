@@ -11,6 +11,17 @@ Find tags that are really the same tag, and merge them in one click. Free and op
 
 Tip: merging renames tags inside your documents, so try it on one group first. Parent tags: renaming a parent tag also renames its sub-tags.
 
+## Free and Pro
+Everything above is free forever. Pro is an optional one-time license ($12).
+
+| | Free | Pro |
+|---|---|---|
+| Duplicate tag finder, one-click merge per group, single-use and top tags, Markdown report | yes | yes |
+| Merge all suggestions at once (with a confirm step) | | yes |
+| CSV export of every tag with its use count and suggested merge target | | yes |
+
+To unlock Pro, open the plugin window, click "Get a license key", pay once, and paste the key into the License key box. The key is checked on your device (Ed25519 signature); nothing is sent anywhere and there is no account. No telemetry.
+
 ## Install
 Marketplace, then Plugins, search "Tag Tidy".
 
