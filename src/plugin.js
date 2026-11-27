@@ -3,7 +3,7 @@ const core = require("./core.js");
 const { verifyLicense } = require("./license.js");
 const PLUGIN_ID = "siyuan-tag-tidy";
 // The paid tier stays hidden until the checkout rail accepts this plugin id. Flip to true to show it.
-const PRO_ENABLED = false;
+const PRO_ENABLED = true;
 const CHECKOUT = "https://sd-start.judestrahm.workers.dev/gx/sy/checkout?plugin=" + PLUGIN_ID;
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
