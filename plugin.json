@@ -2,18 +2,40 @@
   "name": "siyuan-tag-tidy",
   "author": "JUDESTRAHM",
   "url": "https://github.com/JUDESTRAHM/siyuan-tag-tidy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minAppVersion": "3.0.0",
-  "backends": ["all"],
-  "frontends": ["all"],
-  "displayName": { "default": "Tag Tidy: Duplicates & Cleanup", "zh_CN": "标签整理：重复与清理" },
+  "backends": [
+    "all"
+  ],
+  "frontends": [
+    "all"
+  ],
+  "displayName": {
+    "default": "Tag Tidy: Duplicates & Cleanup",
+    "zh_CN": "标签整理：重复与清理"
+  },
   "description": {
     "default": "Find duplicate tags (case, spaces, hyphens, plurals), merge them in one click, and see single-use and most-used tags.",
     "zh_CN": "找出重复标签（大小写、空格、连字符、复数），一键合并，并查看仅使用一次和最常用的标签。"
   },
-  "readme": { "default": "README.md", "zh_CN": "README_zh_CN.md" },
-  "funding": { "custom": [] },
-  "keywords": ["tags", "duplicate tags", "merge tags", "cleanup", "标签", "标签合并", "整理"],
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": [
+      "https://sd-start.judestrahm.workers.dev/gx/sy/checkout?plugin=siyuan-tag-tidy"
+    ]
+  },
+  "keywords": [
+    "tags",
+    "duplicate tags",
+    "merge tags",
+    "cleanup",
+    "标签",
+    "标签合并",
+    "整理"
+  ],
   "icon": "icon.png",
   "preview": "preview.png"
 }
