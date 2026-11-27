@@ -2355,7 +2355,7 @@ var { Plugin, Dialog, showMessage, confirm, getFrontend } = require("siyuan");
 var core = require_core();
 var { verifyLicense } = require_license();
 var PLUGIN_ID = "siyuan-tag-tidy";
-var PRO_ENABLED = false;
+var PRO_ENABLED = true;
 var CHECKOUT = "https://sd-start.judestrahm.workers.dev/gx/sy/checkout?plugin=" + PLUGIN_ID;
 var esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 async function api(path, body) {
